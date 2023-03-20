@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ShowImage.css">
+    <title>ShowImage</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="container">
+        <div class="search">
+            <h1>Image Gallery</h1>
+            <form>
+                <input type="text" placeholder="Search">
+                <ion-icon name="search-outline" class="searchIcon"></ion-icon>
+            </form>
+        </div>
+        <div class="gallery">
+        </div>
+        <div class="btnControl">
+        <button class="showMore">Show More</button>
+        <button class="showMore" onclick="scrollWindow()">Back to Top</button>
+        </div>
+    </div> 
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+<script src="./ShowImage.js"></script>
+</body>
+</html>
